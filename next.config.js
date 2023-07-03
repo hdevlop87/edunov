@@ -1,5 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    reactStrictMode: true,
+    swcMinify: true,
+    compiler: {
+       styledComponents: true,
+    },
+    webpack(config) {
+        config.experiments = { ...config.experiments, topLevelAwait: true }
+        config.module.rules.push({
+           test: /\.svg$/,
+           use: ['@svgr/webpack'],
+        });
+        return config
+    },
     images: {
         domains: ['github.com', 'lh3.googleusercontent.com']
     },
