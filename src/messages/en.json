@@ -1,0 +1,135 @@
+{
+    "intro": {
+        "title": "Discover Labinnov, your new personalized and interactive online educational platform for practical work in SVT",
+        "teacher": "Teacher",
+        "student": "Student"
+    },
+    "auth": {
+        "welcomeBack": "Welcome Back",
+        "emailPlaceholder": "Enter your email",
+        "emailLabel": "Email",
+        "passwordPlaceholder": "Enter your password",
+        "passwordLabel": "Password",
+        "rememberPassword": "Remember password",
+        "forgotPassword": "Forgot your password?",
+        "logIn": "Log In",
+        "signInWithGoogle": "Sign in with Google",
+        "signInWithFacebook": "Sign in with Facebook",
+        "noAccount": "Don't have an account?",
+        "createAccount": "Create an Account",
+        "confirmPasswordPlaceholder": "Confirm your password",
+        "confirmPasswordLabel": "Confirm Password",
+        "signUp": "Sign Up",
+        "alreadyAccount": "Already have an account?"
+    },
+    "navbar": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "settings": "Settings",
+        "logout": "Logout"
+    },
+    "sideBar": {
+        "Dashboard": "Dashboard",
+
+        "Students": "Students",
+        "studentsDetails": "Students Details",
+        "studentsAdd": "Students Add",
+
+        "Teachers": "Teachers",
+        "teachersDetails": "Teachers Details",
+        "teachersAdd": "Teachers Add",
+
+        "Parents": "Parents",
+        "parentsDetails": "Parents Details",
+        "parentsAdd": "Parents Add",
+
+        "Staff": "Staff",
+        "staffDetails": "Staff Details",
+        "staffAdd": "Staff Add",
+
+        "Attendances": "Attendances",
+        "attendancesDetails": "Attendances Details",
+        "attendancesAdd": "Attendances Add",
+
+        "Exam": "Exam",
+        "examDetails": "Exam Details",
+        "examAdd": "Exam Add",
+
+        "Assignments": "Assignments",
+
+        "Homework": "Homework",
+
+        "Grades": "Grades",
+
+        "Timetable": "Timetable",
+
+        "Class": "Class",
+        "Subject": "Subject",
+        "Fees": "Fees",
+        "Transport": "Transport",
+        "Calendar": "Calendar",
+        "Setting": "Setting",
+        "Logout": "Logout"
+    },
+    "dashboard": {
+        "totalStudents": "Total Students",
+        "totalClasses": "Total Classes",
+        "practicalWorks": "Practical Works",
+        "totalDevoirs": "Total Devoirs"
+    },
+    "confirmation": {
+        "title": "Are you sure?",
+        "textPrefix": "Do you want to remove",
+        "confirmButtonText": "Yes, remove it!",
+        "cancelButtonText": "No, cancel"
+    },
+    "class": {
+        "title": "Classes",
+        "students": "students",
+        "addClass": "Add new class"
+    },
+    "classCard": {
+        "editClass": "Edit Class",
+        "addStudent": "Add Student",
+        "removeClass": "Remove Class",
+        "clearStudents": "Clear Students"
+    },
+    "classForm": {
+        "createClass": "Create New Class",
+        "className": "Class Name",
+        "classPlaceholder": "Enter class name",
+        "grade": "Grade",
+        "gradePlaceholder": "Enter grade",
+        "subject": "Subject",
+        "subjectPlaceholder": "Enter subject",
+        "selectImage": "Select Image",
+        "submit": "Submit",
+        "newClass": "newClass"
+    },
+    "student": {
+        "title": "Students",
+        "students": "students",
+        "addStudent": "Add student"
+    },
+    "studentCard": {
+        "updateStudent": "Update Student",
+        "addPoint": "Add Point",
+        "removeStudent": "Remove Student",
+        "clearPoints": "Clear Points"
+    },
+    "studentForm": {
+        "addNewStudents": "Add New Students",
+        "enterEmail": "Enter Email address",
+        "addStudent": "Add student",
+        "addStudentsFromList": "Add students from list",
+        "placeholderText": "Copy/Paste your students Email here. Put each name on a new line.\n\nExamples:\n\nstudent1@gmail.com\nstudent2@gmail.com\nstudent3@gmail.com",
+        "submit": "Submit",
+        "invalidSingleEmail": "Invalid single email",
+        "invalidEmailsInList": "Invalid email(s) found in the list",
+        "provideAtLeastOneEmail": "Please provide at least one email"
+    },
+    "noteBook": {
+        "title": "NoteBook",
+        "addNoteBook": "Add NoteBook"
+    }
+}

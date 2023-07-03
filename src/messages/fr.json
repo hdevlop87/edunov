@@ -1,0 +1,167 @@
+{
+   "auth": {
+      "welcomeBack": "Bienvenue",
+      "emailPlaceholder": "Entrez votre email",
+      "emailLabel": "Email",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "passwordLabel": "Mot de passe",
+      "rememberPassword": "Se souvenir du mot de passe",
+      "forgotPassword": "Mot de passe oublié?",
+      "logIn": "Se connecter",
+      "signInWithGoogle": "Se connecter avec Google",
+      "signInWithFacebook": "Se connecter avec Facebook",
+      "noAccount": "Vous n'avez pas de compte?",
+      "createAccount": "Créer un compte",
+      "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+      "confirmPasswordLabel": "Confirmer le mot de passe",
+      "signUp": "S'inscrire",
+      "alreadyAccount": "Vous avez déjà un compte?"
+   },
+   "sideBar": {
+      "Dashboard": "Dashboard",
+
+      "Students": "Étudiants",
+      "studentsDetails": "Détails des étudiants",
+      "studentsAdd": "Ajouter des étudiants",
+
+      "Teachers": "Enseignants",
+      "teachersDetails": "Détails des enseignants",
+      "teachersAdd": "Ajouter des enseignants",
+
+      "Parents": "Parents",
+      "parentsDetails": "Détails des parents",
+      "parentsAdd": "Ajouter des parents",
+
+      "Staff": "Personnels",
+      "staffDetails": "Détails du personnels",
+      "staffAdd": "Ajouter du personnels",
+
+      "Attendances": "Présences",
+      "attendancesDetails": "Détails des présences",
+      "attendancesAdd": "Ajouter des présences",
+
+      "Exam": "Examen",
+      "examDetails": "Détails de l'examen",
+      "examAdd": "Ajouter un examen",
+
+      "Assignments": "Devoirs",
+
+      "Homework": "Cahier de texte",
+
+      "Grades": "Notes",
+      "Timetable": "Emploi du temps",
+
+      "Class": "Classe",
+      "Subject": "Matière",
+      "Fees": "Frais",
+      "Transport": "Transport",
+      "Calendar": "Calendrier",
+      "Setting": "Paramètres",
+      "Logout": "Se déconnecter"
+    }
+    ,
+   "navbar": {
+      "home": "Accueil",
+      "dashboard": "Tableau de bord",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
+   },
+   "intro": {
+      "title": "Découvrez Labinnov, votre nouvelle plateforme éducative en ligne personnalisée et interactive pour les travaux pratiques en SVT",
+      "teacher": "Professeur",
+      "student": "Étudiant"
+   },
+   "dashboard": {
+      "totalStudents": "Total des étudiants",
+      "totalClasses": "Total des classes",
+      "practicalWorks": "Travaux pratiques",
+      "totalDevoirs": "Total des devoirs"
+   },
+   "confirmation": {
+      "title": "Êtes-vous sûr?",
+      "textPrefix": "Voulez-vous supprimer",
+      "confirmButtonText": "Oui, supprimez-le!",
+      "cancelButtonText": "Non, annuler"
+   },
+   "class": {
+      "title": "Classes",
+      "students": "étudiants",
+      "addClass": "Ajouter une nouvelle classe"
+   },
+   "classCard": {
+      "editClass": "Modifier la classe",
+      "addStudent": "Ajouter un étudiant",
+      "removeClass": "Supprimer la classe",
+      "clearStudents": "Effacer les étudiants"
+   },
+   "classForm": {
+      "createClass": "Créer une nouvelle classe",
+      "className": "Nom de la classe",
+      "classPlaceholder": "Entrez le nom de la classe",
+      "grade": "Niveau",
+      "gradePlaceholder": "Entrez le niveau",
+      "subject": "Matière",
+      "subjectPlaceholder": "Entrez la matière",
+      "selectImage": "Sélectionner une image",
+      "submit": "Soumettre",
+      "newClass": "nouvelle classe"
+   },
+   "student": {
+      "title": "Étudiants",
+      "students": "étudiants",
+      "addStudent": "Ajouter un étudiant"
+   },
+   "studentCard": {
+      "updateStudent": "Mettre à jour l'étudiant",
+      "addPoint": "Ajouter un point",
+      "removeStudent": "Supprimer l'étudiant",
+      "clearPoints": "Effacer les points"
+   },
+   "studentForm": {
+      "addNewStudents": "Ajouter de nouveaux étudiants",
+      "enterEmail": "Entrez l'adresse e-mail",
+      "addStudent": "Ajouter un étudiant",
+      "addStudentsFromList": "Ajouter des étudiants à partir de la liste",
+      "placeholderText": "Copiez/Collez les emails de vos étudiants ici. Mettez chaque email sur une nouvelle ligne.\n\nExemples:\n\netudiant1@gmail.com\netudiant2@gmail.com\netudiant3@gmail.com",
+      "submit": "Soumettre",
+      "invalidSingleEmail": "Email invalide",
+      "invalidEmailsInList": "Email(s) invalide(s) trouvé(s) dans la liste",
+      "provideAtLeastOneEmail": "Veuillez fournir au moins un email"
+   },
+   "praticalWorks": {
+      "title": "Travaux Pratiques",
+      "addPWork": "Ajouter un TP"
+   },
+   "tpCard": {
+      "updateTPWorks": "Mettre à jour les TP",
+      "removeTPWorks": "Supprimer les TP",
+      "areYouSure": "Êtes-vous sûr?",
+      "doYouWantToRemove": "Voulez-vous supprimer",
+      "yesRemoveIt": "Oui, supprimez-le!",
+      "noCancel": "Non, annuler"
+   },
+   "tpForm": {
+      "createNewPracticalWork": "Créer un nouveau TP",
+      "enterPracticalWorkName": "Entrez le nom du TP",
+      "practicalWorkName": "Nom du TP",
+      "enterDescription": "Entrez la description",
+      "description": "Description",
+      "selectImage": "Sélectionnez une image",
+      "submit": "Soumettre",
+      "nameIsRequired": "Le nom est requis"
+   },
+   "noteBook": {
+      "title": "Ressources",
+      "addNoteBook": "Add Ressource"
+   },
+
+   "simulatorItems": {
+      "Lamp": "Lampe",
+      "TestTube": "Tube à essai",
+      "Beaker": "Pichet",
+      "Laboratory": "Laboratoire",
+      "Reagent": "Réactif",
+      "PetriDish": "Boîte de Petri",
+      "Pipette": "Pipette"
+   }
+}

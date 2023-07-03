@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  background-color: #F3F3F3;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+input:-moz-read-write,
+input:-moz-placeholder-shown {
+  background-color: transparent;
+}
+
+.editorClassName{
+  background: none;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 0 0 8px 8px ;
+}
+
+.wrapperClassName{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: none;
+}
+
+.submenu-container {
+  max-height: 0;
+}
+
+.submenu-open {
+  max-height: 500px; /* Change this value according to your needs */
+}
