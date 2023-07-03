@@ -20,13 +20,15 @@ const layout = ({ children }) => {
         return () => clearTimeout(timer);
     }, []);
 
+    // This will redirect user when status is "unauthenticated"
+    useEffect(() => {
+        if (status === "unauthenticated") {
+            router.push('/auth/signin');
+        }
+    }, [status, router]); // add dependencies
+
     if (loading || status === "loading") {
         return <Loader />
-    }
-
-    if (status === "unauthenticated") {
-        router.push('/auth/signin');
-        return null;
     }
 
 

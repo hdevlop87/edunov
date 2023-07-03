@@ -1,15 +1,22 @@
 import createMiddleware from 'next-intl/middleware';
- 
-export default createMiddleware({
-  // A list of all locales that are supported
+import { NextRequest, NextResponse } from 'next/server';
+
+const intlMiddleware = createMiddleware({
   locales: ['en', 'fr'],
- 
-  // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
   defaultLocale: 'fr'
 });
+
+export default async function middleware(req: NextRequest) {
+  const { pathname } = req.nextUrl;
+  const response = intlMiddleware(req); 
+
+  if (pathname === "/") {
+      return NextResponse.redirect(new URL("/auth/signin", req.nextUrl));
+  }
+
+  return response instanceof NextResponse ? response : NextResponse.next();
+}
  
 export const config = {
-  // Skip all paths that should not be internationalized. This example skips the
-  // folders "api", "_next" and all files with an extension (e.g. favicon.ico)
   matcher: ['/((?!api|_next|.*\\..*).*)']
 };
