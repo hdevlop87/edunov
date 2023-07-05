@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+import "react-big-calendar/lib/css/react-big-calendar.css";
 import NextAuthProviders from '@/Components/NextAuthProviders'
 import { NextIntlClientProvider } from 'next-intl';
 import {notFound} from 'next/navigation';
