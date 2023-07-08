@@ -1,6 +1,6 @@
 import React from 'react'
 import Select from '../Select'
-import { Button } from '../button'
+import { Button } from '../Button'
 import { Icon } from '@iconify/react';
 
 const Filtration = ({ selectOptions = [], showDownload = true, showAddItems = true, onSelectChange, onDownloadClick, onAddItemClick }) => {

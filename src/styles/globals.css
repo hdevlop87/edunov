@@ -66,3 +66,10 @@ input:-moz-placeholder-shown {
 .submenu-open {
   max-height: 500px; /* Change this value according to your needs */
 }
+
+input,
+textarea,
+h2,p,
+button {
+    caret-color: transparent;
+}

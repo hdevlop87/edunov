@@ -6,7 +6,7 @@ import { Calendar as CalendarIcon } from "lucide-react"
 import { CaretSortIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/Components/button"
+import { Button } from "@/Components/Button"
 import { Calendar } from "@/Components/Calendar"
 import {
     Popover,
@@ -14,8 +14,13 @@ import {
     PopoverTrigger,
 } from "@/Components/Popover"
 
-export function DatePicker() {
+export function DatePicker({ onChange }) {
     const [date, setDate] = React.useState()
+
+    const handleDateChange = (newDate) => {
+        setDate(newDate);
+        onChange(newDate);
+    };
 
     return (
         <Popover>
@@ -32,8 +37,8 @@ export function DatePicker() {
                 <Calendar
                     mode="single"
                     selected={date}
-                    onSelect={setDate}
-                    initialFocus
+                    onSelect={handleDateChange}
+                    
                 />
             </PopoverContent>
         </Popover>
