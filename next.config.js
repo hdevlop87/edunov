@@ -7,9 +7,9 @@ const nextConfig = {
     env: {
         DB_HOST: "localhost:27017",
         DB_NAME: "edunov",
-        DB_PASS: "Rima0000",
+        DB_PASS: "edunov2023",
         DB_SECRET: "hdevlop-edunov-2022",
-        DB_EXT_URL: "mongodb+srv://school:school@cluster0.12q8p.mongodb.net/edunov?retryWrites=true&w=majority",
+        DB_EXT_URL: "mongodb+srv://school:edunov2023@cluster0.12q8p.mongodb.net/edunov?retryWrites=true&w=majority",
 
         NEXTAUTH_URL: 'http://localhost:3000',
         NEXTAUTH_SECRET: 'coding_data_hdevlop',
