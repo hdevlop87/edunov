@@ -6,7 +6,7 @@ import {
     ChevronsRight,
 } from "lucide-react";
 
-import { Button } from "../Button";
+import { Button } from "../Buttons";
 import {
     Select,
     SelectContent,

@@ -6,7 +6,7 @@ import { Calendar as CalendarIcon } from "lucide-react"
 import { CaretSortIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/Components/Button"
+import { Button } from "@/Components/Buttons"
 import { Calendar } from "@/Components/Calendar"
 import {
     Popover,

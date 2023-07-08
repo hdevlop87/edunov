@@ -5,7 +5,7 @@ import TableHours from './TableHours'
 import Event from './Event'
 import { differenceInWeeks, startOfWeek, isToday, parseISO } from 'date-fns';
 import { DatePicker } from '../DatePicker'
-import { Button } from '../Button'
+import { Button } from '../Buttons'
 import {PopoverDemo} from './EventPopover'
 
 const Schedule = ({ events, hours }) => {

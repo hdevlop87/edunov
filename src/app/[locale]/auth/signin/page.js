@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Input from '@/Components/input'
 import { useFormik } from 'formik';
 import * as Yup from "yup";
-import { Button } from '@/Components/Button';
+import { Button } from '@/Components/Buttons';
 import facebookIcon from '@iconify/icons-logos/facebook'
 import googleIcon from '@iconify/icons-logos/google-icon';
 import forIcon from '@iconify/icons-mdi/play-arrow';

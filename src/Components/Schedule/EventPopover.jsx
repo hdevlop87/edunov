@@ -2,7 +2,7 @@
 
 import React, { useRef, useState, useEffect } from 'react';
 
-import { Button } from "@/Components/Button"
+import { Button } from "@/Components/Buttons"
 import { Input } from "@/Components/input"
 
 import {

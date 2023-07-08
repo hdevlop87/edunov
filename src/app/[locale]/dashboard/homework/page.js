@@ -3,7 +3,7 @@
 import React from 'react'
 import Select from '@/Components/Select'
 import Input from '@/Components/input'
-import { Button } from '@/Components/Button'
+import { Button } from '@/Components/Buttons'
 import { Icon } from '@iconify/react';
 import dynamic from 'next/dynamic'
 import { DatePicker } from '@/Components/DatePicker'
